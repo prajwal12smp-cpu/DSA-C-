@@ -1,4 +1,4 @@
-// This program demonstrates the use of various operators in C++ including arithmetic, relational, and logical operators.
+// This program demonstrates the use of various operators in C++ including arithmetic, relational and logical operators. It performs basic operations on integers and evaluates relational and logical expressions, printing the results to the console.
 
 #include<iostream>
 using namespace std;
