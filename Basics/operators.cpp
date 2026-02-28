@@ -28,5 +28,10 @@ int main()
     cout<< ( (3<1) || (3>1) )<<endl; // This will print 1 (true) because (3<1) is false and (3>1) is true, so the OR operation returns true
     cout<< ( (3<1) && (3>1) )<<endl; // This will print 0 (false) because (3<1) is false and (3>1) is true, so the AND operation returns false
 
+    //unary operator
+    int a = 10; 
+    int b = a++; // This will assign the value of 'a' (which is 10) to 'b' and then increment 'a' by 1, resulting in 'a' being 11 after this operation
+    cout << "b = " << b << endl; // This will print 10 because the post-increment operator returns the value of 'a' before incrementing it
+    cout << "a = " << a << endl; // This will print 11 because after the post-increment operation, 'a' is incremented by 1, resulting in 11
     return 0;
 }
