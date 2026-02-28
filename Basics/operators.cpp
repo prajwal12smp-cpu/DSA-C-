@@ -1,3 +1,5 @@
+// This program demonstrates the use of basic arithmetic operators in C++.
+
 #include<iostream>
 using namespace std;
 
