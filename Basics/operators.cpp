@@ -31,6 +31,9 @@ int main()
     //unary operator
     int a = 10; 
     int b = a++; // This will assign the value of 'a' (which is 10) to 'b' and then increment 'a' by 1, resulting in 'a' being 11 after this operation
+    // int b = ++a; // This will first increment 'a' by 1 (making it 11) and then assign the new value of 'a' to 'b', resulting in 'b' being 11
+    // int b = a--; // This will assign the value of 'a' (which is 10) to 'b' and then decrement 'a' by 1, resulting in 'a' being 9 after this operation
+    // int b = --a; // This will first decrement 'a' by 1 (making it 9) and then assign the new value of 'a' to 'b', resulting in 'b' being 9
     cout << "b = " << b << endl; // This will print 10 because the post-increment operator returns the value of 'a' before incrementing it
     cout << "a = " << a << endl; // This will print 11 because after the post-increment operation, 'a' is incremented by 1, resulting in 11
     return 0;
