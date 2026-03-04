@@ -50,5 +50,25 @@ int main() {
         cout << "The number is odd.\n";
     }
     return 0;
+}
 
+// if-else if-else statement to determine the grade of a student based on marks
+#include <iostream>
+using namespace std;
+int main() {
+   int marks;
+   cout << "Enter your marks: ";
+   cin >> marks;
+   if (marks >= 90) {
+       cout << "Grade: A\n";
+   } else if (marks >= 80 && marks < 90) {
+       cout << "Grade: B\n";
+   } else if (marks >= 70 && marks < 80) {
+       cout << "Grade: C\n";
+   } else if (marks >= 60 && marks < 70) {
+       cout << "Grade: D\n";
+   } else {
+       cout << "Grade: F\n";
+   }
+   return 0; 
 }
