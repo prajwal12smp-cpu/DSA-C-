@@ -72,3 +72,13 @@ int main() {
    }
    return 0; 
 }
+
+//Ternary operator
+// The ternary operator is a shorthand for the if-else statement. It takes three operands: a condition, a value to return if the condition is true, and a value to return if the condition is false. The syntax is: condition ? value_if_true : value_if_false;
+#include <iostream>
+using namespace std;
+int main() {
+    int n = 45;
+    cout << (n>=0 ? "n is a positive number\n" : "n is a negative number\n");
+    return 0;
+}
